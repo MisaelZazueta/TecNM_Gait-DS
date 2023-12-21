@@ -4,9 +4,9 @@ The burgeoning field of Human Gait Recognition (HGR) capitalizes on non-invasive
 ## TecNM Gait-DS
 The organization of the dataset is described as follows:
 
-1. **Subjects**: There are 124 subjects in the dataset. Each subject is represented by a dedicated folder.
+- 1. **Subjects**: There are 124 subjects in the dataset. Each subject is represented by a dedicated folder.
 
-   1.1 **Walking Variants**: Each subject's folder contains five subfolders representing different walking variants.
+   - 1.1 **Walking Variants**: Each subject's folder contains five subfolders representing different walking variants.
    
    - Normal walking (`nm`)
    - Carrying a backpack (`bp`)
@@ -14,7 +14,7 @@ The organization of the dataset is described as follows:
    - Carrying a box (`cx`)
    - Wearing a coat (`cl`)
 
-       1.1.1 **Videos**: Each walking variant folder contains batches of videos.
+       - 1.1.1 **Videos**: Each walking variant folder contains batches of videos.
 
    - In the `nm` folder, there are 6 * α = 78 videos.
    - In the other walking variant folders, there are 2 * α = 26 videos each.
@@ -23,17 +23,17 @@ The organization of the dataset is described as follows:
    - The other walking variant folders have videos from 2 batches and 13 different angles.
    - The name of each video corresponds to the following nomenclature: $sub-wv-vb-\alpha$. Where $sub$ is the subject number (from 001 to 124), $wv$ is the walking variant (`nm`, `bg`, `bp`, `cl`, `cx`), $vb$ is the video batch number (01 to 06 in `nm` and 01 to 02 in the other `wv`), and $\alpha$ is the corresponding angle.
 
-       1.1.2 **Extracted Features**: Each video has a dedicated folder (with the same name as the video) inside the corresponding walking variant folder. Inside these video folders, there are subfolders for extracted features. These feature folders are divided into two main categories. 
+       - 1.1.2 **Extracted Features**: Each video has a dedicated folder (with the same name as the video) inside the corresponding walking variant folder. Inside these video folders, there are subfolders for extracted features. These feature folders are divided into two main categories. 
 
    - `dense`
    - `skeletons`
 
-           1.1.2.1 `dense`: The "dense" folder contains two subfolders: 
+           - 1.1.2.1 `dense`: The "dense" folder contains two subfolders: 
    
    - `silhouettes`: the "silhouettes" folder contains all the silhouettes extracted from each frame of the video.
    - `gei`: the "gei" folder contains a gait energy image generated from all previously extracted silhouettes.
 
-           1.1.2.2 `skeletons`: Inside the "skeletons" folder, there are two subfolders.
+           - 1.1.2.2 `skeletons`: Inside the "skeletons" folder, there are two subfolders.
    
    - `angles`: contains CSV files with angle measurements derived from the skeleton data of each video frame.
    - `keypoints`: contains CSV files with key point coordinates extracted from each video frame's skeleton.
