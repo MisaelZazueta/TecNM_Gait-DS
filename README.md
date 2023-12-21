@@ -40,6 +40,6 @@ The organization of the dataset is described as follows:
    - `angles`: contains CSV files with angle measurements derived from the skeleton data of each video frame.
    - `keypoints`: contains CSV files with key point coordinates extracted from each video frame's skeleton.
 
-This hierarchical structure allows for organized storage and retrieval of video data as shown in Fig. [Dataset hierarchical structure](img/jearquia.png).
+This hierarchical structure allows for organized storage and retrieval of video data as shown in Fig. [Dataset hierarchical structure](img/hierarchical.png).
 
-[Dataset hierarchical structure](img/jearquia.png)
+[Dataset hierarchical structure](img/hierarchical.png)
