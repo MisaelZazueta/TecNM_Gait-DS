@@ -24,7 +24,7 @@ The organization of the dataset is described as follows:
       1.1.2.1 **dense**: The "dense" folder contains two subfolders: 
        - `silhouettes`: the "silhouettes" folder contains all the silhouettes extracted from each frame of the video.
        - `gei`: the "gei" folder contains a gait energy image generated from all previously extracted silhouettes.
-      1.1.2.2 `skeletons`: Inside the "skeletons" folder, there are two subfolders.
+      1.1.2.2 **skeletons**: Inside the "skeletons" folder, there are two subfolders.
        - `angles`: contains CSV files with angle measurements derived from the skeleton data of each video frame.
        - `keypoints`: contains CSV files with key point coordinates extracted from each video frame's skeleton.
 
