@@ -1,9 +1,7 @@
 # Developing of a Multi-Angle and Varied Walking Conditions dataset for Human Gait Recognition
 # Abstract
 The burgeoning field of Human Gait Recognition (HGR) capitalizes on non-invasive identification through unique walking patterns, offering a discreet and versatile biometric modality. This article explores the significance of comprehensive datasets for algorithm development, testing, and validation in HGR. While gait-based identification excels in scenarios requiring discretion and at-a-distance verification, its effectiveness is contingent on system accuracy. Researchers employ model-based and appearance-based approaches, each with distinct trade-offs, necessitating well-constructed datasets for robust algorithm development. Existing datasets, exemplified by CMU MoBo, SOTON, CASIA B, and OU-ISIR, have significantly evolved in scale and complexity, addressing challenges of diversity and sample representation. The introduction of TecNM Gait-DS, tailored for Latin American populations, presents a novel dataset with 13 viewing angles, five walking variations, and rich feature sets. The dataset undergoes a detailed evaluation using the Transformer Dino VIT model, showcasing its potential for advancing HGR technology. Key areas of opportunity, such as sample diversity, accuracy enhancement, and ethical considerations, underscore the importance of continually refining gait recognition datasets for optimal system performance and societal acceptance.
-# TecNM Gait-DS
-# Dataset Organization
-
+## TecNM Gait-DS
 The organization of the dataset is described as follows:
 
 1. **Subjects**: There are 124 subjects in the dataset. Each subject is represented by a dedicated folder.
