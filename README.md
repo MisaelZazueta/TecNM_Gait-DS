@@ -42,4 +42,4 @@ The organization of the dataset is described as follows:
 
 This hierarchical structure allows for organized storage and retrieval of video data as shown in Fig. [Dataset hierarchical structure](img/hierarchical.png).
 
-[Dataset hierarchical structure](img/hierarchical.png)
+![Dataset hierarchical structure](img/hierarchical.png)
